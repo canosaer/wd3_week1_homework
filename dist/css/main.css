@@ -207,3 +207,17 @@ body{
 	padding: 0% 4% 2% 4%;
 	text-align: left;
 }
+
+.domsNote{
+	display: flex;
+	text-transform: capitalize;
+	justify-content: center;
+}
+
+.domsMsg{
+	width: min-content;
+}
+
+.dreadlogo{
+	width: 4.2em;
+}
