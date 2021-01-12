@@ -1,14 +1,13 @@
 /* 
 ==============================================
-CONTENT:	Project Name Here
-AUTHOR:		Your Name Here
+CONTENT:	WD3 Week 1 Homework
+AUTHOR:		Eric Canosa
 ==============================================
 
 TABLE OF CONTENTS:
 
 0. Reset
-1. Main Layout
-2. Content
+1. STYLES
 
 ==============================================
 */
@@ -148,8 +147,63 @@ table {
 	border-spacing: 0;
 }
 
-/* 1. Main Layout ================================= */
+/* 1. STYLES ================================= */
 
+*{
+	box-sizing: border-box;
+	text-decoration: none;
+}
 
+body{
+	font-family: 'Varela Round', sans-serif;
+}
 
-/* 2. Content ================================= */
+.intro{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	line-height:2;
+	background-color: #3acec2;
+	padding: 5% 0%;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+
+.intro__heading{
+	color: #093a58;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.intro__text{
+	font-size: 1.5rem;
+}
+
+.pandemic{
+	display: flex;
+	flex-direction: column;
+	background: #edf4f7;
+	border-radius: 5px;
+	margin: 3%;
+	padding-bottom: 2%;
+}
+
+.pandemic__heading{
+	padding: 4%;
+	text-align: center;
+	font-size: 1.375rem;
+	font-weight: bold;
+}
+
+.pandemic__list{
+	list-style: disc inside;
+}
+
+.pandemic__item{
+	font-size: 1.25rem;
+	color: #3a3a3a;
+	line-height: 1.5;
+	padding: 0% 4% 2% 4%;
+	text-align: left;
+}
