@@ -221,3 +221,11 @@ body{
 .dreadlogo{
 	width: 4.2em;
 }
+.sam{
+	color: #093a58;
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+}
+.sam img{
+	width: 100px;
+}
